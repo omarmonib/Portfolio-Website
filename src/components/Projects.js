@@ -1,14 +1,15 @@
 import React from "react";
 import "../styles/components-styles.css";
 import "../styles/main.css";
+import portfolioImage from "../assets/projects/portfolio-photo.png";
 
 const projectsData = [
   {
     title: "Portfolio Website",
     description:
       "A personal portfolio website built with React showcasing my work and skills.",
-    githubLink: "https://github.com/yourusername/portfolio",
-    image: "/path/to/portfolio-image.jpg",
+    githubLink: "https://omarmonib.github.io/Portfolio-Website/",
+    image: portfolioImage,
   },
   {
     title: "Todo List App",

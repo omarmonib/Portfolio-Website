@@ -6,7 +6,7 @@
   --quinary-color: #fff;
 }
 
-
+/* Header */
 .header {
   position: relative;
   display: flex;
@@ -90,7 +90,7 @@
 }
 
 .header-text .description {
-  font-size: 1.2em;
+  font-size: 1.5rem;
   margin-top: 0.5rem;
   max-width: 500px;
   line-height: 1.5;
@@ -286,13 +286,14 @@
 }
 
 .project-title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
   color: var(--tertiary-color);
+  font-weight: 600;
 }
 
 .project-description {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--tertiary-color);
 }
 
@@ -385,42 +386,32 @@
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media (max-width: 1024px) {
   .header {
-    flex-direction: column;
-    height: auto;
+    font-size: 1.5rem;
+    background: linear-gradient(
+      105deg, 
+      var(--secondary-color) 50%,
+      var(--tertiary-color) 50%
+      );
   }
 
-  .menu {
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-  }
+  .background-image {
+    bottom: 0;
+    right: 0;
+    top: auto;
+    height: 90%;
+}
 
-  .menu-item {
-    margin: 0.5rem 0;
-  }
+.about-section{
+  padding: 2rem;
+  margin: 1rem 3rem;
+  font-size: 1.5rem;
+}
 
-  .section {
-    padding: 1rem;
-  }
+.description-section p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
 
-  .about-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .profile-section {  
-    margin-bottom: 2rem;  
-  }
-
-  .contact-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-info {
-    margin-right: 0;
-    text-align: center;
-  }
 }
