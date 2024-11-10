@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.120d9b9e.css",
+    "main.js": "/Portfolio-Website/static/js/main.375e10f5.js",
+    "static/js/453.74412c27.chunk.js": "/Portfolio-Website/static/js/453.74412c27.chunk.js",
+    "static/media/CV_Omar_Monib.pdf": "/Portfolio-Website/static/media/CV_Omar_Monib.8bbe11c85204cf3d37e0.pdf",
+    "static/media/profile2.png": "/Portfolio-Website/static/media/profile2.546ecd3dd54e77bb7709.png",
+    "static/media/profile-image.png": "/Portfolio-Website/static/media/profile-image.90cf7290bd57258bd5a8.png",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.120d9b9e.css.map": "/Portfolio-Website/static/css/main.120d9b9e.css.map",
+    "main.375e10f5.js.map": "/Portfolio-Website/static/js/main.375e10f5.js.map",
+    "453.74412c27.chunk.js.map": "/Portfolio-Website/static/js/453.74412c27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.120d9b9e.css",
+    "static/js/main.375e10f5.js"
+  ]
+}
