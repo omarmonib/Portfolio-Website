@@ -21,15 +21,16 @@ const About = () => {
           <img src={profileImage} alt="Profile" className="profile-image" />
           <div className="personal-info">
             <h2>Omar Monib</h2>
-            <p>Front-End Developer</p>
+            <h3>Front-End Developer</h3>
+            <p>
+              <FaUser className="icon" />
+              Omar Mohamed Abdel-Halim Monib
+            </p>
             <p>
               <FaEnvelope className="icon" /> omar.monib.03@gmail.com
             </p>
             <p>
               <FaPhone className="icon" /> +20 101 009 4107
-            </p>
-            <p>
-              <FaUser className="icon" />{" "}
             </p>
           </div>
 

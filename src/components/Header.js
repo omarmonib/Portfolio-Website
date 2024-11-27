@@ -37,10 +37,11 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+
       <img src={profileImage} alt="Profile" className="background-image" />
       <div className="header-text">
         <h1>Hi, I'm Omar</h1>
-        <p>Front-End Developer</p>
+        <p className="subtitle">Front-End Developer</p>
         <p className="description">
           I specialize in creating responsive, user-friendly websites using the
           latest web technologies.
