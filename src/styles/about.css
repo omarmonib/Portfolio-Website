@@ -1,0 +1,156 @@
+/* About */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .about-container {
+    display: flex;
+    gap: 2rem;
+    max-width: 75rem;
+    flex-wrap: wrap;
+  }
+  
+  .profile-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+  }
+  
+  .personal-info {
+    text-align: center;
+    font-size: 1.5rem;
+    width: max-content;
+  }
+  
+  .personal-info h2 {
+    margin: 0.5rem 0;
+    color: var(--tertiary-color);
+  }
+  
+  .personal-info h3 {
+    color: var(--tertiary-color);
+  }
+  
+  .personal-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--tertiary-color);
+    justify-content: center;
+  }
+  
+  .description-section {
+    flex: 2;
+  }
+  
+  .description-section p {
+    text-indent: 1rem;
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 3rem 0;
+    color: var(--tertiary-color);
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 20px;
+    width: fit-content;
+    margin: 1rem auto;
+    color: var(--tertiary-color);
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .skills-section {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  
+  .skills-section h1 {
+    color: var(--tertiary-color);
+    font-size: 1.5rem;
+    display: inline-block;
+    border: 2px dashed var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-section span {
+    padding-left: 0.5rem;
+    font-weight: 600;
+    color: var(--tertiary-color);
+  }
+  
+  .skill {
+    margin-bottom: 0.8rem;
+  }
+  
+  .skill-bar {
+    background: #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 25px;
+    position: relative;
+  }
+  
+  .skill-level {
+    background: var(--primary-color);
+    color: var(--quinary-color);
+    padding-left: 0.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: width 0.8s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile-section,
+    .description-section {
+      width: 100%;
+    }
+  
+    .profile-image {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .personal-info {
+      font-size: 1.2rem;
+    }
+  
+    .description-section p {
+      font-size: 1.2rem;
+      margin: 1.5rem 0;
+    }
+  
+    .skills-section h1 {
+      font-size: 1.3rem;
+    }
+  }
+  

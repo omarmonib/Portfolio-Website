@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import "../styles/components-styles.css";
+import "../styles/contact.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -16,26 +16,39 @@ const Contact = () => {
     message: "",
     subject: "",
   });
+  const [isSending, setIsSending] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
+  // Handle input changes
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const resetForm = () => {
+    setFormData({ name: "", email: "", message: "", subject: "" });
+  };
+
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsSending(true); // Start sending process
+
     emailjs
       .send(
-        "service_xyz6spp", // Replace with your EmailJS service ID
-        "template_8ztke7f", // Replace with your EmailJS template ID
+        "service_xyz6spp",
+        "template_8ztke7f",
         formData,
-        "C3kZteKvtzbx4pigo" // Replace with your EmailJS public key
+        "C3kZteKvtzbx4pigo"
       )
       .then(
         (result) => {
+          setIsSending(false); // End sending process
           alert("Message sent successfully!");
+          resetForm(); // Reset form fields
         },
         (error) => {
-          alert("Failed to send message, please try again.");
+          setIsSending(false); // End sending process
+          setErrorMessage("Failed to send message. Please try again."); // Show error message
         }
       );
   };
@@ -53,7 +66,6 @@ const Contact = () => {
             <FaWhatsapp className="icon" /> +20 101 009 4107
           </p>
         </div>
-
         <div className="social-media">
           <a
             href="https://www.facebook.com/omar.monib"
@@ -77,7 +89,8 @@ const Contact = () => {
             <FaGithub className="social-icon" />
           </a>
         </div>
-
+        {errorMessage && <div className="error-message">{errorMessage}</div>}{" "}
+        {/* Show error message if exists */}
         <form className="contact-form" onSubmit={handleSubmit}>
           <input
             type="text"
@@ -99,7 +112,7 @@ const Contact = () => {
             type="text"
             name="subject"
             placeholder="Subject"
-            value={formData.subject} // Corrected here
+            value={formData.subject}
             onChange={handleChange}
             required
           />
@@ -111,8 +124,9 @@ const Contact = () => {
             onChange={handleChange}
             required
           ></textarea>
-          <button type="submit" className="submit-btn">
-            Send Message
+          <button type="submit" className="submit-btn" disabled={isSending}>
+            {isSending ? "Sending..." : "Send Message"}{" "}
+            {/* Show sending status */}
           </button>
         </form>
       </div>

@@ -1,0 +1,94 @@
+/* Header */
+.header {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    color: var(--tertiary-color);
+    overflow: hidden;
+    padding: 1rem;
+    background: linear-gradient(
+      105deg, 
+      var(--secondary-color) 57%,
+      var(--tertiary-color) 50%
+      );
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    z-index: 3;
+    font-weight: 700;
+    background-color: #387478cc;
+    color: var(--quinary-color);
+  }
+  
+  .menu ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    cursor: pointer;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .menu li a:hover {
+    color: var(--tertiary-color);
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    width: 41rem;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .header-text {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    margin-left: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.8rem;
+  }
+  
+  .header-text h1 {
+    margin: 0.5em 0;
+  }
+  
+  .header-text .subtitle {
+    font-weight: 600;
+  }
+  
+  .header-text p {
+    margin: 0;
+    color: black;
+  }
+  
+  .header-text .description {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    max-width: 500px;
+    line-height: 1.5;
+    width: 400px;
+  }
+  

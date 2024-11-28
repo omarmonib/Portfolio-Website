@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #387478;
+    --secondary-color: #E2F1E7;
+    --tertiary-color: #243642;
+    --quaternary-color: #629584;
+    --quinary-color: #fff;
+  }
+  
 body{
     background-color: #E2F1E7;
     margin: 0;

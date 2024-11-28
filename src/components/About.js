@@ -1,6 +1,6 @@
 // src/components/About.js
 import React from "react";
-import "../styles/components-styles.css";
+import "../styles/about.css";
 import "../styles/main.css";
 import profileImage from "../assets/profile-image.png";
 import {

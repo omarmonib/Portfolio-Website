@@ -1,7 +1,7 @@
 // src/components/Header.js
 import React from "react";
 import { Link } from "react-scroll";
-import "../styles/components-styles.css";
+import "../styles/header.css";
 import "../styles/main.css";
 import profileImage from "../assets/profile2.png";
 

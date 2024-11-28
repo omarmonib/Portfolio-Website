@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/components-styles.css";
 import Header from "../components/Header";
 import About from "../components/About";
 import Resume from "../components/Resume";

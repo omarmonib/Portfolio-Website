@@ -6,13 +6,13 @@ const resumeData = {
     { label: "Phone 1", value: "+20 101 009 4107" },
     { label: "Phone 2", value: "+20 120 417 1020" },
     { label: "Address", value: "Cairo, Egypt" },
-    { label: "GitHub", value: "https://www.github.com/omarmonib" },
+    { label: "GitHub", value: "https://github.com/omarmonib" },
   ],
   education: [
     {
-      degree: "B.Sc. in  Communications and Electronics Engineering",
+      degree: "B.Sc. in Communications and Electronics Engineering",
       institution: "Safwa Higher Institute of Engineering and Technology",
-      year: "2010-2015",
+      year: "2010 - 2015",
     },
   ],
   experience: [
@@ -40,18 +40,18 @@ const resumeData = {
   ],
   training: [
     {
-      course: "Python: ",
-      institution: "Elzero Web School (YouTube Channel) ",
+      course: "Python",
+      institution: "Elzero Web School (YouTube Channel)",
       year: "2024",
     },
     {
-      course: "ReactJS: ",
-      institution: "Different Courses (YouTube Channels) ",
+      course: "ReactJS",
+      institution: "Codevolution (YouTube Channel)",
       year: "2023",
     },
     {
-      course: "HTML, CSS, and JavaScript for Web Developers: ",
-      institution: "Elzero Web School (YouTube Channel) ",
+      course: "HTML, CSS, and JavaScript for Web Developers",
+      institution: "Elzero Web School (YouTube Channel)",
       year: "2022",
     },
   ],

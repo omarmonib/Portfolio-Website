@@ -1,0 +1,119 @@
+/* Contact */
+.contact-section {
+    text-align: center;
+    background-color: var(--tertiary-color);
+    height: 100vh;
+  }
+  
+  .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-heading {
+    color: var(--secondary-color);
+    border: solid var(--secondary-color);
+  }
+  
+  .contact-info {
+    margin: 3.5rem 0;
+  }
+  
+  .contact-info p {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .icon {
+    color: var(--primary-color);
+  }
+  
+  .icon:hover {
+    color: var(--secondary-color);
+  }
+  
+  .social-media {
+    margin: 1.5rem 0;
+  }
+  
+  .social-icon {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: var(--secondary-color);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .submit-btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: none;
+    background-color: var(--quaternary-color);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 35%;
+    margin: auto;
+  }
+  
+  .submit-btn:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1024px) {
+    .header {
+      font-size: 1.5rem;
+      background: linear-gradient(
+        105deg, 
+        var(--secondary-color) 50%,
+        var(--tertiary-color) 50%
+        );
+    }
+  
+    .background-image {
+      bottom: 0;
+      right: 0;
+      top: auto;
+      height: 90%;
+  }
+  
+  .about-section{
+    padding: 2rem;
+    margin: 1rem 3rem;
+    font-size: 1.5rem;
+  }
+  
+  .description-section p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+  }
+  }
