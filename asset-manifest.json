@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.276172c6.css",
-    "main.js": "/Portfolio-Website/static/js/main.7810f09e.js",
+    "main.css": "/Portfolio-Website/static/css/main.52c413e6.css",
+    "main.js": "/Portfolio-Website/static/js/main.3e5130aa.js",
     "static/js/453.74412c27.chunk.js": "/Portfolio-Website/static/js/453.74412c27.chunk.js",
     "static/media/profile2.png": "/Portfolio-Website/static/media/profile2.546ecd3dd54e77bb7709.png",
     "static/media/radio-pro.jpg": "/Portfolio-Website/static/media/radio-pro.a9918cded75dba508a67.jpg",
@@ -13,12 +13,12 @@
     "static/media/todo-list.jpg": "/Portfolio-Website/static/media/todo-list.a82c2ffa6f943371efe2.jpg",
     "static/media/loginForm.jpg": "/Portfolio-Website/static/media/loginForm.4a0fcb575b704dea1507.jpg",
     "index.html": "/Portfolio-Website/index.html",
-    "main.276172c6.css.map": "/Portfolio-Website/static/css/main.276172c6.css.map",
-    "main.7810f09e.js.map": "/Portfolio-Website/static/js/main.7810f09e.js.map",
+    "main.52c413e6.css.map": "/Portfolio-Website/static/css/main.52c413e6.css.map",
+    "main.3e5130aa.js.map": "/Portfolio-Website/static/js/main.3e5130aa.js.map",
     "453.74412c27.chunk.js.map": "/Portfolio-Website/static/js/453.74412c27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.276172c6.css",
-    "static/js/main.7810f09e.js"
+    "static/css/main.52c413e6.css",
+    "static/js/main.3e5130aa.js"
   ]
 }
